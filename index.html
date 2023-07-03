@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mi Web</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./anime.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="Inicio">
+        <h1 id="anime">ANIMATRIX</h1>
+        <img src="./iconos/bx-menu-alt-right.svg" alt="" class="menu">
+        <!-- barra navegacion -->
+        <nav class="menu-navegacion">
+            <a href="#Inicio">Inicio</a>
+            <a href="#Animatrix">Animatrix</a>
+            <a href="#Series">Series</a>
+            <a href="#Expertos">Peliculas</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Todo lo relacionado en anime.</h1>
+            <p class="copy" style="color:#000000;"><span style="font-weight: 900;"> A nuestra página de anime, un lugar donde los amantes de la animación japonesa pueden encontrar todo lo que necesitan para satisfacer su pasión.</span></p>
+        </div>
+    </header>
+    <!-- main -->
+    <main>  
+        <!-- 1 section contenedor -->
+        <section class="services contenedor" id="Animatrix">
+            <h2 class="subtitulo">Acerca de ANIMATRIX</h2>
+            <div class="contenedor-servicio">
+                <img src="./imagenes/tokyo.jpeg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Noticias de esta semana</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, distinctio! Assumenda ipsum esse quibusdam, mollitia maxime blanditiis error libero rerum repellendus itaque? Dolore eos error modi dolorem quidem id earum.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Foro</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, distinctio! Assumenda ipsum esse quibusdam, mollitia maxime blanditiis error libero rerum repellendus itaque? Dolore eos error modi dolorem quidem id earum.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Ultimas actualizaciones</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, distinctio! Assumenda ipsum esse quibusdam, mollitia maxime blanditiis error libero rerum repellendus itaque? Dolore eos error modi dolorem quidem id earum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 2 section gallery -->
+        <section class="gallery" id="Series">
+            <div class="contenedor">
+                <h2 class="subtitulo">Series</h2>
+                <div class="contenedor-galeria">
+                    <img src="./imagenes/itachi.jpeg" alt="" class="img-galeria">
+                    <img src="./imagenes/one piece.jpeg" alt="" class="img-galeria">
+                    <img src="./imagenes/pokemon.jpeg" alt="" class="img-galeria">
+                    <img src="./imagenes/bleach.jpeg" alt="" class="img-galeria">
+                    <img src="./imagenes/dragonBall.jpeg" alt="" class="img-galeria">
+                    <img src="./imagenes/kaneki.jpeg" alt="" class="img-galeria">
+                </div> 
+            </div>
+        </section> 
+        <!-- 3 section img light-->
+        <section class="imagen-light">
+            <img src="./iconos/bx-x.svg" alt="" class="close">
+            <img src="./imagenes/wall.avif" alt="" class="agregar-imagen">
+        </section>
+        <!-- 4 section contenedor -->
+        <section class="contenedor" id="Expertos">
+            <h2 class="subtitulo">Proximamente</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="./imagenes/saitama.jpeg" alt="">
+                    <h3 class="n-expert">One Ounch Man TEMPORADA 2</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./imagenes/demon slayer.jpeg" alt="">
+                    <h3 class="n-expert">OVAS Demon Slayer</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./imagenes/titan.jpeg" alt="">
+                    <h3 class="n-expert">Shinngeki no Kyojin</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="Contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Jeisson Cardozo</h2>
+                <p>Mi primer proyecto</p>
+            </div>
+            <div class="social-media">
+                <a target="_blank" href="https://www.instagram.com/jeisson_cardozo_s/" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/JeissonCardoz0" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!-- script -->
+    <script src="./menu.js"></script>
+    <script src="./lightbox.js"></script>
+</body>
+</html> 
